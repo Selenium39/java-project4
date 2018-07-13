@@ -1,0 +1,27 @@
+/*
+ *author:wantao
+ *Jul 10, 2018 9:42:40 PM
+ *@charset "UTF-8";
+ */
+ body{
+ background-image: url("../css/images/004.jpg");
+ }
+#user{
+	margin-top:100px;
+    margin-left:700px;
+    font-family:monospace;
+    color: red;
+ }
+#images{
+	margin-top:150px;
+}
+#image{
+   margin-left: 400px;  
+}
+#main{
+    margin-top:50px;
+    margin-left:700px;
+}
+#btn2{
+    margin-left:50px;
+}

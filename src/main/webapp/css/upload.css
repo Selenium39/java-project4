@@ -1,0 +1,29 @@
+/*
+ *author:wantao
+ *Jul 12, 2018 2:48:41 PM
+ *@charset "UTF-8";
+ */
+body {
+	background-image: url("../css/images/004.jpg");
+}
+
+#upload {
+	margin-left: 700px;
+	color: red;
+}
+
+#main {
+	margin-left: 400px;
+}
+
+#buttons {
+	margin-left: 300px;
+}
+
+#btn2 {
+	margin-left: 10px;
+}
+
+#btn3 {
+	margin-left: 10px;
+}

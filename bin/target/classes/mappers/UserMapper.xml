@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wantao.dao.UserDao"><!--面向接口编程命名空间为接口全类名  -->
+<!-- 增 -->
+<insert id="addUser" useGeneratedKeys="true">
+INSERT INTO tb_user(name,password,email,phone) VALUES(#{name},#{password},#{email},#{phone})
+</insert>
+
+<!--查-->
+<select id="findAllUser" resultType="com.wantao.bean.User">
+SELECT * FROM tb_user
+</select>
+<select id="findUserByName" resultType="com.wantao.bean.User">
+SELECT * FROM tb_user WHERE name=#{name}
+</select>
+</mapper>

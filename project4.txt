@@ -1,0 +1,4 @@
+1.eclipse修改了css文件，但是页面并没有变化:
+答:是浏览器缓存的原因，解决方法:①.ctrl+f5强制刷新②打开调试模式,禁止缓存
+2.eclipse每次都要clean一下项目不然部署不上:
+https://blog.csdn.net/IDOshi201109/article/details/51178210(project--->bulidAuto)

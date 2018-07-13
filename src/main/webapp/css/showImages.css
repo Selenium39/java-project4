@@ -1,0 +1,17 @@
+/*
+ *author:wantao
+ *Jul 13, 2018 7:22:26 AM
+ *@charset "UTF-8";
+ */
+ body{
+ background-image: url("../css/images/004.jpg");
+ }
+#type{
+	margin-left:700px;
+}
+#nav{
+	border:solid 2px red;
+	margin-left:400px;
+	width:1000px;
+	height:800px;
+}

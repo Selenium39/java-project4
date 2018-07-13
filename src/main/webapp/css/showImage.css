@@ -1,0 +1,36 @@
+/*
+ *author:wantao
+ *Jul 13, 2018 11:19:32 AM
+ *@charset "UTF-8";
+ */
+body {
+	background-image: url("../css/images/004.jpg");
+}
+
+#nav {
+	color: Red;
+	margin-left: 700px;
+	width: 1000px;
+	height: 800px;
+}
+
+#main {
+	font-size:30px;
+	border:2px solid red;
+	margin-top:-700px;
+	margin-left:500px;
+	width: 650px;
+	height: 650px;
+	padding-left:150px;
+	padding-top:50px;
+}
+#buttons{
+	margin-left:650px;
+	margin-top:-100px;
+}
+#btn2{
+	margin-left:20px;
+}
+#btn3{
+	margin-left:20px;
+}

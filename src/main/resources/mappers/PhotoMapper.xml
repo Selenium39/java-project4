@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wantao.dao.PhotoDao"><!--面向接口编程命名空间为接口全类名  -->
+<!-- 增 -->
+<insert id="addPhoto" >
+INSERT INTO tb_photo(photoName,photoSize,photoWidth,photoHeight,photoType,photoTime,photoAddress,userName,userPhotoName,smallPhotoAddress)Values(#{photoName},#{photoSize},#{photoWidth},#{photoHeight},#{photoType},#{photoTime},#{photoAddress},#{userName},#{userPhotoName},#{smallPhotoAddress})
+</insert>
+<!-- 查 -->
+<select id="findAllPhotoByType" resultType="com.wantao.bean.Photo">
+SELECT * FROM tb_photo WHERE photoType=#{photoType}
+</select>
+<select id="findPhotoById" resultType="com.wantao.bean.Photo">
+SELECT * FROM tb_photo WHERE id=#{id}
+</select>
+<!-- 改 -->
+<update id="updatePhotoWaterAddress">
+UPDATE tb_photo SET printAddress=#{photoWaterAddress} WHERE id=#{id}
+</update>
+</mapper>
