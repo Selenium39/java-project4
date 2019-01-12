@@ -27,3 +27,35 @@ https://blog.csdn.net/IDOshi201109/article/details/51178210(project--->bulidAuto
 
 总结:<br/>
 因为有了<a href="https://github.com/wantao666/java-project3">java-project3</a>的经验，这次的整合还是比较的轻松，没有遇到什么大的问题，但是这些代码写的太垃圾了，希望可以慢慢进步.
+
+### 项目截图
+
+#### 项目目录
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/0.png?row=true"/>
+
+#### 首页
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/1.png?row=true"/>
+
+#### 用户注册
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/2.png?row=true"/>
+
+#### 用户登录
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/3.png?row=true"/>
+
+#### 找回密码
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/4.png?row=true"/>
+
+#### 用户首页
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/5.png?row=true"/>
+
+#### 上传照片
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/6.png?row=true"/>
+
+#### 查看照片
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/7.png?row=true"/>
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/8.png?row=true"/>
+
+#### 为照片添加水印
+<img src="https://github.com/wantao666/java-project4/blob/master/result-image/9.png?row=true"/>
+
+
